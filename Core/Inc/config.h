@@ -60,11 +60,11 @@
 #define REGEN_CURRENT 15000
 
 // maximum current for flux weakening in mA
-#define FW_CURRENT_MAX 15000 //max id
+#define FW_CURRENT_MAX 1000 //max id
 
 // maximum battery currents in mA
-#define BATTERYCURRENT_MAX 25000
-#define REGEN_CURRENT_MAX 10000
+#define BATTERYCURRENT_MAX 26000
+#define REGEN_CURRENT_MAX 1000
 
 // battery voltage limits in mV
 #define BATTERYVOLTAGE_MIN 33000
@@ -72,7 +72,7 @@
 
 
 // motor spinning direction
-#define REVERSE 0 //1 for original M365 motor
+#define REVERSE 2 //1 for original M365 motor
 
 // settings for speed PLL (angle estimation)
 #define SPEED_PLL 1 //1 for using PLL, 0 for angle extrapolation
