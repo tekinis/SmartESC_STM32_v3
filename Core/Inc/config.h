@@ -43,12 +43,12 @@
 #define BRAKEMAX 190
 
 // parameters for speed calculation
-#define WHEEL_CIRCUMFERENCE 797 //690 for original M365 motor
+#define WHEEL_CIRCUMFERENCE 730 //690 for original M365 motor
 #define GEAR_RATIO 11 //15 for original M365 motor
 
 // speed limits for invividual modes in kph
 #define SPEEDLIMIT_ECO 25
-#define SPEEDLIMIT_NORMAL 35
+#define SPEEDLIMIT_NORMAL 50
 #define SPEEDLIMIT_SPORT 50
 
 // motor current limits for invividual modes in mA, see default settings at https://max.cfw.sh/#
@@ -63,7 +63,7 @@
 #define FW_CURRENT_MAX 20000 //max id
 
 // maximum battery currents in mA
-#define BATTERYCURRENT_MAX 16000
+#define BATTERYCURRENT_MAX 20000
 #define REGEN_CURRENT_MAX 10000
 
 // battery voltage limits in mV
