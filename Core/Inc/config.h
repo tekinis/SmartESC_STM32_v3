@@ -53,8 +53,8 @@
 
 // motor current limits for invividual modes in mA, see default settings at https://max.cfw.sh/#
 #define PH_CURRENT_MAX_ECO 20000
-#define PH_CURRENT_MAX_NORMAL 50000
-#define PH_CURRENT_MAX_SPORT 63000
+#define PH_CURRENT_MAX_NORMAL 610000
+#define PH_CURRENT_MAX_SPORT 64000
 
 // motor current limit for regen in mA
 #define REGEN_CURRENT 20000
